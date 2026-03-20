@@ -1,0 +1,14 @@
+[project]
+name = "archai"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=1.0.0",
+    "openai>=1.54.0",
+    "streamlit>=1.35.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []
